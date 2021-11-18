@@ -1,0 +1,24 @@
+<! DOCTYPE html >
+< html >
+  < cabeça >
+    < meta  charset = " utf-8 " >
+    < meta  name = " viewport " content = " width = device-width " >
+    < title > Base e da altura de um retângulo </ title >
+  </ head >
+
+  < corpo >
+    < script  language = " javascript " >
+   var  base ;
+   var  altura ;
+   var  area ;
+
+   base  =  parseFloat ( window . prompt ( "Digite a base do retângulo:" ) ) ;
+   altura  =  parseFloat ( window . prompt ( "Digite a altura do retângulo:" ) ) ;
+
+   área  =  ( base  *  altura )  ;
+
+   documento . escrever ( "A área do triângulo é:"  +  área  ) ;
+
+    </ script >
+  </ body >
+</ html >
